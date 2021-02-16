@@ -309,7 +309,7 @@ var SelectComponent = /*#__PURE__*/function (_BaseComponent) {
         });
       }
 
-      this.selectInput.appendChild(option.element);
+      this.selectInput && this.selectInput.appendChild(option.element);
     }
   }, {
     key: "addValueOptions",
